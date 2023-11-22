@@ -47,7 +47,7 @@ jobs:
         remove-haskell: 'true'
         remove-docker-images: 'true'
         remove-codeql: 'true'
-        remove-large-packages: 'true'
+        remove-large-packages: 'false'
         remove-tool-cache: 'true'
     - name: Checkout
       uses: actions/checkout@main
