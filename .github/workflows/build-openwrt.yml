@@ -38,6 +38,8 @@ jobs:
     runs-on: ubuntu-20.04
 
     steps:
+    - name: Clean
+      uses: actions/Openwrt_X86/.github/workflows/Maximize build disk space.yml@master
     - name: Checkout
       uses: actions/checkout@main
 
