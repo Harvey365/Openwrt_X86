@@ -34,11 +34,7 @@ env:
   TZ: Asia/Shanghai
 
 jobs:
-  jobs1:
-    uses:actions/maximize-build-space
-  jobs2:
-    needs:jobs1
-  build:
+ build:
     runs-on: ubuntu-20.04
 
     steps:
