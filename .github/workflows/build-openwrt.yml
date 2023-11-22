@@ -39,7 +39,7 @@ jobs:
 
     steps:
     - name: 'Maximize build disk space'
-      uses: actions https://github.com/easimon/maximize-build-space@master
+      uses: actions/https://github.com/easimon/maximize-build-space/action.yml@master
     - name: Checkout
       uses: actions/checkout@main
 
