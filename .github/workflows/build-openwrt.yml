@@ -35,7 +35,7 @@ env:
 
 jobs:
   jobs1:
-    uses:actions/Harvey365/maximize-build-space
+    uses:actions/maximize-build-space
   jobs2:
     needs:jobs1
   build:
