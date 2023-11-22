@@ -39,7 +39,7 @@ jobs:
 
     steps:
     - name: 'Maximize build disk space'
-      uses: actions/Harvey365/maximize-build-space@main
+      uses: actions/easimon/maximize-build-space@master
     - name: Checkout
       uses: actions/checkout@main
 
