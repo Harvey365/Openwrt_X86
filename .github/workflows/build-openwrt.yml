@@ -38,6 +38,8 @@ jobs:
     runs-on: ubuntu-20.04
 
     steps:
+    - name: 'Maximize build disk space'
+      uses: actions/maximize-build-space@main
     - name: Checkout
       uses: actions/checkout@main
 
