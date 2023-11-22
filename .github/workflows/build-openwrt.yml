@@ -34,6 +34,10 @@ env:
   TZ: Asia/Shanghai
 
 jobs:
+  jobs1:
+    actions/Harvey365/maximize-build-space
+  jobs2:
+    needs:jobs1
   build:
     runs-on: ubuntu-20.04
 
